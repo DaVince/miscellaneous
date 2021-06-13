@@ -2,10 +2,13 @@ Kowloon High School Chronicle - quest hints <!-- omit in toc -->
 ===========================================
 
 - [Introduction](#introduction)
+- [General tips & tricks](#general-tips--tricks)
 - [Quests](#quests)
 - [Location hints](#location-hints)
 - [Target hints](#target-hints)
 - [Action hints](#action-hints)
+- [Todo's](#todos)
+- [Credit](#credit)
 
 
 Introduction
@@ -31,13 +34,25 @@ Where priests gatherWinged oneDefeat with sword
 
 This document describes the meaning of each of the hints.
 
+The latest version of this document can be found on [GitHub](https://github.com/DaVince/miscellaneous/blob/main/game_guides/kowloon_high_school_chronicle_quest_hints.md).
+
+
+General tips & tricks
+---------------------
+
+* Whenever you enter a location that has one of your quest items, a special jingle sound will play upon entering the room.
+
+* You can redeem the rewards from a quest by going into one of the spirit well rooms, and selecting the Gate to Yomi. Monster drops and quest items all end up in that area.
+
+* If you don't feel like hunting for an item you already have on hand, you can opt to just hand over the one you have. However, this will give you one less opportunity to find that same item, so keep that in mind if it's something rare.
+
+* For riddles that ask you to defeat a certain enemy in a certain way, the room will spawn an extra enemy that is the target. Said extra enemy is spawned in a set place in that room.
+
 
 Quests
 ------
 
 The following quests (or 'lots') are provided by the game.
-
-Note that if you don't feel like hunting for an item you already have on hand, you can opt to just hand over the one you have. However, this will give you one less opportunity to find that same item, so keep that in mind if it's something rare.
 
 | Lot | Requested item | Location                  | Target                   | Action              |
 | --- | -------------- | ------------------------- | ------------------------ | ------------------- |
@@ -105,7 +120,7 @@ Note that if you don't feel like hunting for an item you already have on hand, y
 Location hints
 --------------
 
-Whenever you enter a location that has one of your quest items, a special jingle sound will play upon entering the room.
+Locations are the rooms you will need to visit in order to fulfill the quest.
 
 | Location hint             | Area | Floor | Room name                   | Comments                                    |
 | ------------------------- | ---- | ----- | --------------------------- | ------------------------------------------- |
@@ -123,10 +138,17 @@ Target hints
 
 Targets can refer to specific spots in the current location, or it can refer to enemy targets or objects of interest.
 
-| Target hint           | Description                |
-| --------------------- | -------------------------- |
-| Winged One            | Bat enemy                  |
-| From the cracked wall | In front of a cracked wall |
+| Target hint           | Description                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Winged One            | Bat enemy                                                                                                    |
+| From the cracked wall | In front of a cracked wall                                                                                   |
+| From the dusk door    | Stand in front of the westernmost door in the room                                                           |
+| From the dawn door    | Stand in front of the easternmost door in the room                                                           |
+| Below the ladder      | Stand at the bottom of a ladder. If you don't see a ladder, try blasting a cracked floor with a Gas Grenade. |
+| One awaiting rebirth  | Fuyu, the mummy that can be found very early in the ruins. I haven't found its weak point yet.               |
+| Floating prayer       | Shihotaru, the floating enemy with the fish tank on its head, that is also its weak point.                   |
+| Winged one            | Kawahori, the bat enemy. Weak point is between its eyes.                                                     |
+| Southwest of statue   | Translation error. Means right next to the southwestern-most statue in that room.                            |
 
 
 Action hints
@@ -134,12 +156,57 @@ Action hints
 
 Actions refer to, well, the action you should perform at the indicated location/target.
 
-| Action hint         | Description                                                                  |
-| ------------------- | ---------------------------------------------------------------------------- |
-| Blow to bits        | Use a gas grenade on the target                                              |
-| Daybreak prayer     | Wait at the target spot while facing east                                    |
-| Prepare for battle  | Unconfirmed. Swap out weapons during battle at the correct spot?             |
-| Spice seeker        | Eat something spicy at the correct spot. Any curry-based item seems to work. |
-| Defeat in front     | Defeat the target from behind. (Likely a translation mistake.)               |
-| Change of heart     | Switch from exploration mode to battle mode (or vice versa)                  |
-| Riddle with bullets | Fire SMG(?) at target                                                        |
+| Action hint             | Description                                                                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Blow to bits            | Use a gas grenade on the target                                                                                                          |
+| Daybreak prayer         | Wait at the target spot while facing east                                                                                                |
+| Prepare for battle      | Unconfirmed. Swap out weapons during battle at the correct spot?                                                                         |
+| Spice seeker            | Eat something spicy at the correct spot. Any curry-based item seems to work.                                                             |
+| Defeat in front         | Defeat the target from behind. (Likely a translation mistake.)                                                                           |
+| Change of heart         | Switch from exploration mode to battle mode (or vice versa)                                                                              |
+| Riddle with bullets     | Fire SMG(?) at target                                                                                                                    |
+| Dance with time         | Spin around clockwise, to your right.                                                                                                    |
+| Go back in time         | Spin around counterclockwise, to your left.                                                                                              |
+| Prepare for battle      | Switch from exploration mode to battle mode and ready a weapon.                                                                          |
+| Change of heart         | Switch from battle mode to exploration mode.                                                                                             |
+| Noodle lover            | Eat a food item with noodles. (Works: Yakisoba bread)                                                                                    |
+| Spice seeker            | This seems to ask you to eat a curry item.                                                                                               |
+| Purify yourself         | I think you need to use an item that cures a status affliction, such as Vitamins. (Works: salt)                                          |
+| Divest left arm         | Kill the target by attacking its left side. Need more info on distance, weapon reqs, or if the target Needs to be slain within one turn. |
+| Divest right arm        | Kill the target by attacking its right side. Some of these are pretty easy, but I'm including them for completeness' sake.               |
+| Defeat in front         | This one I think needs you to get behind the enemy, such that it is in front of you in a line.                                           |
+| Stationery suppression  | Deal a killing blow with a weapon from the stationery group.                                                                             |
+| Become the Wind         | Sprint onto the tile. Also works if sprinting and strafing.                                                                              |
+| Descend Upon the Land   | Land onto the target tile with a jump.                                                                                                   |
+| Daybreak Prayer         | Face East for a few seconds on target tile.                                                                                              |
+| Twilight Weeper         | Face West for a few seconds on target tile                                                                                               |
+| Waste Not a Single Life | ???? I think you just immediately leave before killing anything                                                                          |
+| Flow with the Wind      | sprint-strafing from one end of the room to the designated tile                                                                          |
+| pierce with arrows      | Defeat enemy with bow and arrows.                                                                                                        |
+
+
+Todo's
+------
+* Complete quests list
+* Full list of location hints
+* Full list of target hints
+* Full list of action hints
+* All unknown/vague hints figured out
+
+
+Credit
+------
+
+Guide put together by [DaVince](https://github.com/DaVince/miscellaneous/tree/main/game_guides).
+
+Many thanks to the following people from [this GameFAQS thread](https://gamefaqs.gamespot.com/boards/272741-kowloon-high-school-chronicle/79287490) for providing more hints, explanations and generally figuring things out:
+
+* Blackest_Knight
+* Greiga
+* BloodWingDragon
+* DBDjango
+* airtamis
+
+Special thanks to the following wikis:
+* (Japanese) [Fastest walkthrough wiki](https://spwiki.net/kowloon/wikis/91.html)
+* (Japanese) [Strategy wiki on h1g.jp](https://h1g.jp/kowloon_ooa/)
